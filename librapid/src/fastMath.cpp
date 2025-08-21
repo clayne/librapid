@@ -16,7 +16,7 @@ namespace librapid::fastmath {
                                       10000,
                                       100000,
                                       1000000,
-                                      1000000};
+                                      10000000};
 
         if (exponent >= -7 && exponent <= 7) return pows[exponent + 7];
 
